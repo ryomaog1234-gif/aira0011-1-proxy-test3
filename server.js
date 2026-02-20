@@ -2,7 +2,7 @@ const http = require('http');
 const httpProxy = require('http-proxy');
 
 const proxy = httpProxy.createProxyServer({
-  target: 'https://minefun.io', // ログインしたいサイトのURL
+  target: 'https://racinglimits.io/', // ログインしたいサイトのURL
   changeOrigin: true,            // ホストヘッダーをターゲットに合わせる
   autoRewrite: true,             // リダイレクト先をプロキシURLに書き換える
   xfwd: true,                    // X-Forwarded-For ヘッダーを追加
